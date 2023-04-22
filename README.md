@@ -38,7 +38,7 @@
 | Ridge Regression | Lasso Regression |
 |------------------|------------------|
 |GrLivArea         |GrLivArea         |
-|TotalBsmtSF       |OverallQual-9     |
-|OverallQual-9     |OverallQual-10    |
-|HomeAge           |TotalBsmtSF       |
-|BsmtFullBath-2    |HomeAge           |
+|OverallQual       |OverallQual       |
+|TotalBsmtSF       |TotalBsmtSF       |
+|HomeAge           |HomeAge           |
+|OverallCond       |OverallCond       |
