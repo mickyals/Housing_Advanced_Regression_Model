@@ -15,17 +15,6 @@
 
 ## Conclusion
 
-#### Linear Model
-- r-squared (train) = 0.9441443842671019 
-- r-squared (test) = -2.4318430385254663e+22
-
-
-#### Linear Model w/ RFE
-- number of features = 25
-- r-squared (train) = 0.8624265320236564
-- r-squared (test) = 0.8472207565319033
-
-
 #### Ridge Model
 - alpha = 2.0
 - r-squared (train) = 0.9414316518539076
@@ -41,11 +30,10 @@
 
 #### Top 5 Features by Model
 
-| Linear Regression  | RFE Model       | Ridge Regression | Lasso Regression |
-|--------------------|-----------------|------------------|------------------|
-|Exterior2nd-CmentBd |GrLivArea        |GrLivArea         |GrLivArea         |
-|Exterior1st-CemntBd |KitchenAbvGr     |TotalBsmtSF       |OverallQual-9     |
-|OverallCond-3       |Exterior2nd-Other|OverallQual-9     |OverallQual-10    |
-|OverallQual-10      |OverallQual-10   |HomeAge           |TotalBsmtSF       |
-|OverallQual-9       |TotalBsmtSF      |BsmtFullBath-2    |HomeAge           |
-|____________________|_________________|__________________|__________________|
+| Ridge Regression | Lasso Regression |
+|------------------|------------------|
+|GrLivArea         |GrLivArea         |
+|TotalBsmtSF       |OverallQual-9     |
+|OverallQual-9     |OverallQual-10    |
+|HomeAge           |TotalBsmtSF       |
+|BsmtFullBath-2    |HomeAge           |
