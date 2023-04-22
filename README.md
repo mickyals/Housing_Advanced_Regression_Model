@@ -4,6 +4,11 @@
 ## Business Goal
 > To model the price of houses with the available independent variables. This model will then be used by the management to understand how exactly the prices vary with the variables. They can accordingly manipulate the strategy of the firm and concentrate on areas that will yield high returns. Further, the model will be a good way for management to understand the pricing dynamics of a new market.
 
+> The company wants to know:
+ - Which variables are significant in predicting the price of a house, and
+ - How well those variables describe the price of a house.
+
+
 ## Table of Contents
 | File name | Description | Format |
 |-----------|-------------|--------|
@@ -15,20 +20,20 @@
 
 ## Conclusion
 
-#### Ridge Model
-- alpha = 2.0
-- r-squared (train) = 0.9414316518539076
-- r-squared (test) = 0.9052748083288656
-- number of significant features in Ridge: 147 out of 234 total features (based on abs_value > 0.01)
+#### Ridge Model Statistics
+- alpha = 0.7
+- r-squared train:  0.9157301643105313
+- r-squared test:  0.8927063601032452
+- number of significant features in Ridge: 50 out of 180 total features
 
 
-#### Lasso Model
+#### Lasso Model Statistics
 - alpha = 0.0001
-- r-squared (train) = 0.9403512453236479
-- r-squared (test) = 0.9067890182321706
-- number of significant features in Lasso: 136 out of 234 total features
+- r-squared train:  0.9142013811213581
+- r-squared test:  0.8977191255593224
+- number of significant features in Lasso: 36 out of 180 total features
 
-#### Top 5 Features by Model
+#### Top 5 Significant Features by Model
 
 | Ridge Regression | Lasso Regression |
 |------------------|------------------|
